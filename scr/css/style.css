@@ -65,15 +65,14 @@ body{
 	width: 100%;
 }
 div.tres {
-	width:0px;
-	height:0px;
-	border: 200px solid; /* As 4 bordas sólidas com 25px de espessura */
+	border: 260px solid; /* As 4 bordas sólidas com 25px de espessura */
 	border-color: #e2725b white goldenrod pink; /* cores: topo, direita, inferior, esquerda */
 }
 /*slider*/
 .slideshow-container {
     padding-top: 0;
     width: 100%;
+    height: 520px;
     display: block;
 }
   
@@ -137,14 +136,12 @@ div.tres {
 /* ::-webkit-scrollbar{
 
 } */
-
-.servicos{
-  padding-top: 50px;
+.main-servicos{
+    padding-top: 50px;
   background-image: url(marmore-branco.jpg);
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
-  display: flex;
 }
 
 .iniciativa-servicos{
@@ -153,15 +150,39 @@ div.tres {
 }
 .titulo-servicos{
   text-align: center;
+  font-size: 28px;
 }
+.servicos{
+  padding-top: 50px;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.servicos-2{
+  padding-top: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  padding-left: 15%;
+}
+
 .conteudo-servicos{
   flex-direction: column;
   width: 250px;
-  margin-left: 11%;
+  margin-left: 12%;
   justify-content: space-between;
   margin-bottom: 50px;
-
 }
+.conteudo-servicos-2{
+  flex-direction: column;
+  width: 250px;
+  margin-left: 9%;
+  margin-right: 11%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
 .imagem-servicos{
   width: 100%;
   height: 200px;
