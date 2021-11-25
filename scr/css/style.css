@@ -211,6 +211,61 @@ div.tres {
   color: black;
 }
 
+.contato-principal{
+  background: pink;
+}
+.titulo-contato{
+  font-size: 28px;
+  text-align: center;
+  padding-top: 3%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding-bottom: 50px;
+}
+.global-contato{
+  display: flex;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+.content{
+  display: flex;
+  justify-content: left;
+  margin-top: 30px;
+  margin-left: 8%;
+}
+.content h3{
+  font-size: 22px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.contato{
+  width: 100%;
+  max-width: 500px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.field{
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+textarea{
+  height: 150px;
+}
+#divisoria{
+  height: 450px;
+  border-right: 1px solid #B76E79;
+  padding-left: 15%;
+}
+
+
+
 @media only screen and (max-device-width: 400px) {
     .imagem-logo{
 		width: 200px;
