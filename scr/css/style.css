@@ -26,16 +26,7 @@ body{
 
 .cabecalhoPrincipal-nav{
     display: flex;
-	border: 3px solid rosybrown;
 	border-radius: 10px;
-	background-color: rosybrown;
-}
-.conteudoPrincipal-curso{
-    flex-direction: column;
-}
-
-.conteudoPrincipal-cursos-link{
-    width: 100%;
 }
 .cabecalhoPrincipal-titulo {
 	font-weight: bold;
@@ -48,6 +39,11 @@ body{
 	color: inherit;
 }
 
+.barrinha{
+  margin-top: 15px;
+  color: #B76E79;
+}
+
 .cabecalhoPrincipal-nav-link {
 	padding: 15px;
 	margin-bottom: 10px;
@@ -55,9 +51,8 @@ body{
 	text-decoration: none;
 	transition: .5s;
 	display: block;
-    background-color: rosybrown;
-    padding-right: 25px;
-    font-size: 18px;
+  padding-right: 25px;
+  font-size: 18px;
 }
 .cabecalhoPrincipal-nav-link:hover{
 	color: goldenrod;
