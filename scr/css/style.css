@@ -264,8 +264,39 @@ textarea{
   padding-left: 15%;
 }
 
-
-
+.redes-sociais{
+  margin: 10% 9% 0 15%;
+}
+.titulo-redes{
+  font-size: 18px;
+  text-align: justify;
+  padding-bottom: 15px;
+  color: black;
+}
+.endereco{
+  font-size: 16px;
+  text-align: justify;
+  padding-bottom: 15px;
+  color: black;
+}
+.redes{
+  flex-direction: column;
+}
+.icone_insta{
+  width: 50px;
+  height: 50px;
+}
+.icone_whats{
+  width: 40px;
+  height: 40px;
+}
+.icone_face{
+  width: 40px;
+  height: 40px;
+}
+.redes p{
+  margin-top: 10px;
+}
 @media only screen and (max-device-width: 400px) {
     .imagem-logo{
 		width: 200px;
