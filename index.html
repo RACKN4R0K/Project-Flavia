@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="scr/css/reset.css">
   <link rel="stylesheet" href="scr/css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <title>HOME | PAGE</title>
 </head>
 
@@ -15,7 +17,7 @@
     <a name="Top"></a>
     <div class="container">
       <h1 class="cabecalhoPrincipal-titulo">
-        <img src="scr/imagens/menu/logo.png" alt="Logo Flavius" class="imagem-logo">
+        <img src="scr/imagens/menu/logo.png" alt="Logo Flavius" class="imagem-logo" data-aos="fade-right">
       </h1>
 
       <nav class="cabecalhoPrincipal-nav">
@@ -69,13 +71,13 @@
   <!--Principal-home-->
   <script src="scr/js/slidershow.js"></script>
   <main class="main-servicos">
-    <div class="iniciativa-servicos">
+    <div class="iniciativa-servicos"  data-aos="fade-down">
       <h1 class="titulo-servicos">serviços</h1>
     </div>
     <section class="servicos">
 
 
-      <div class="conteudo-servicos">
+      <div class="conteudo-servicos" data-aos="fade-up">
         <img src="scr/imagens/home/woman-1585593_1280.jpg" alt="imagem de uma mulher em preto e branco"
           class="imagem-servicos">
         <h3 class="descricao-servicos">Sobrancelha</h3>
@@ -86,7 +88,7 @@
         <a href="#" class="botao-servicos">Venha conferir!</a>
       </div>
       <!--conteudo-servicos-->
-      <div class="conteudo-servicos">
+      <div class="conteudo-servicos" data-aos="fade-up">
         <img src="scr/imagens/home/woman-1585593_1280.jpg" alt="imagem de uma mulher em preto e branco"
           class="imagem-servicos">
         <h3 class="descricao-servicos">Sobrancelha</h3>
@@ -97,7 +99,7 @@
         <a href="#" class="botao-servicos">Venha conferir!</a>
       </div>
       <!--conteudo-servicos-->
-      <div class="conteudo-servicos">
+      <div class="conteudo-servicos" data-aos="fade-up">
         <img src="scr/imagens/home/woman-1585593_1280.jpg" alt="imagem de uma mulher em preto e branco"
           class="imagem-servicos">
         <h3 class="descricao-servicos">Sobrancelha</h3>
@@ -113,7 +115,7 @@
 
 
     <section class="servicos-2">
-      <div class="conteudo-servicos-2">
+      <div class="conteudo-servicos-2" data-aos="fade-up">
         <img src="scr/imagens/home/woman-1585593_1280.jpg" alt="imagem de uma mulher em preto e branco"
           class="imagem-servicos">
         <h3 class="descricao-servicos">Sobrancelha</h3>
@@ -124,7 +126,7 @@
         <a href="#" class="botao-servicos">Venha conferir!</a>
       </div>
       <!--conteudo-servicos-->
-      <div class="conteudo-servicos-2">
+      <div class="conteudo-servicos-2" data-aos="fade-up">
         <img src="scr/imagens/home/woman-1585593_1280.jpg" alt="imagem de uma mulher em preto e branco"
           class="imagem-servicos">
         <h3 class="descricao-servicos">Sobrancelha</h3>
@@ -139,7 +141,7 @@
     <section class="contato-principal">
       <h1 class="titulo-contato">contato</h1>
       <div class="global-contato">
-        <section class="content">
+        <section class="content" data-aos="flip-left">
           <div class="contato">
             <h3>Formulário de contato</h3>
             <form class="form" method="post" action="scr/php/email.php">
@@ -153,7 +155,7 @@
         </section>
 
         <div id="divisoria"></div>
-        <div class="redes-sociais">
+        <div class="redes-sociais" data-aos="fade-left">
           <h3 class="titulo-redes">Caso você prefira, pode usar os seguintes canais para falar conosco:</h3>
           <p class="endereco">
             📍 Av. José de Souza Campos, 575, Nova Campinas<br />Campinas, São Paulo<br />CEP: 13025-320
@@ -169,7 +171,13 @@
     </div>
 
   </main>
+  <script>
+    AOS.init({
+        once:true,
+        duration: 1500
+    });
 
+  </script>
 </body>
 
 </html>
