@@ -139,26 +139,29 @@
       <!--conteudo-servicos-->
     </section>
     <section class="contato-principal">
-      <h1 class="titulo-contato">contato</h1>
+      <h1 class="titulo-contato">Fale conosco</h1>
       <div class="global-contato">
         <section class="content" data-aos="flip-left">
           <div class="contato">
-            <h3>Formulário de contato</h3>
+            <h3 style="text-decoration: underline;">Formulário de contato</h3>
             <form class="form" method="post" action="scr/php/email.php">
               <input type="text" class="field" name="nome" placeholder="Nome">
               <input type="text" class="field" name="email" placeholder="email">
               <textarea name="message" id="" cols="30" rows="10" class="field"
                 placeholder="Digite sua mensagem aqui..."></textarea>
               <input type="button" value="Enviar" class="field">
+              <a href="https://api.whatsapp.com/send/?phone=5511977781258&text=Olá, gostaria de saber mais sobre os produtos que a loja oferece! &app_absent=0
+              " target="_blank"><input type="button" value="Nos envie uma mensagem no whatsapp" class="field2"></a>
             </form>
           </div>
         </section>
 
         <div id="divisoria"></div>
         <div class="redes-sociais" data-aos="fade-left">
+          <h2 class="contato-redes">contato</h2>
           <h3 class="titulo-redes">Caso você prefira, pode usar os seguintes canais para falar conosco:</h3>
           <p class="endereco">
-            📍 Av. José de Souza Campos, 575, Nova Campinas<br />Campinas, São Paulo<br />CEP: 13025-320
+            📍 Av. Jucelino Kubitscheck, Nº903<br />Guarulhos - SP<br />CEP: 13025-320
           </p>
           <div class="redes">
             <p><img src="scr/imagens/home/instagram.png" alt="" class="icone_insta">@studio_flaviu's</p>
@@ -169,7 +172,10 @@
         </div>
     </section>
     </div>
-
+    <div class="mapa">  
+      <h1>localizção</h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6156.323001590349!2d-46.411731477699654!3d-23.439839202063634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1637983578832!5m2!1spt-BR!2sbr" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" class="localizacao" data-aos="zoom-in-up"></iframe>
+    </div>
   </main>
   <script>
     AOS.init({
