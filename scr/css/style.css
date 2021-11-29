@@ -65,10 +65,6 @@ body{
 	display: flex;
 	width: 100%;
 }
-div.tres {
-	border: 260px solid; /* As 4 bordas sólidas com 25px de espessura */
-	border-color: #e2725b white goldenrod pink; /* cores: topo, direita, inferior, esquerda */
-}
 /*slider*/
 .slideshow-container {
     padding-top: 0;
@@ -137,12 +133,13 @@ div.tres {
 /* ::-webkit-scrollbar{
 
 } */
-.main-servicos{
-  padding-top: 75px;
+
+.class-servico{
   background-image: url(marmore-branco.jpg);
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
+  padding-left: 0%;
 }
 
 .iniciativa-servicos{
@@ -166,20 +163,20 @@ div.tres {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  padding-left: 15%;
-  margin-bottom: 50px;
+  padding-left: 19%;
+  padding-bottom: 50px;
 }
 
 .conteudo-servicos{
   flex-direction: column;
-  width: 250px;
+  width: 200px;
   margin-left: 12%;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 50px;text-align: justify;
 }
 .conteudo-servicos-2{
   flex-direction: column;
-  width: 250px;
+  width: 200px;
   margin-left: 9%;
   margin-right: 11%;
   justify-content: space-between;
@@ -187,8 +184,8 @@ div.tres {
 }
 
 .imagem-servicos{
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   border-radius: 5px;
 }
 .descricao-servicos{
@@ -325,16 +322,22 @@ textarea{
 .redes p{
   margin-top: 10px;
 }
+.mapa{
+  background-image: url(WhatsApp\ Image\ 2021-11-27\ at\ 21.44.03.jpeg);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
 .mapa h1{
   text-align: center;
   font-size: 28px;
-  margin-top: 5%;
+  padding-top: 5%;
   text-decoration: underline;
   text-transform: uppercase;
 }
 .localizacao{
   margin-top: 5%;
-  margin-left: 20%;
+  margin-left: 28%;
   margin-bottom: 50px;
 }
 
