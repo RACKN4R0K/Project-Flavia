@@ -408,55 +408,177 @@ textarea{
   }
  }
 
-@media only screen and (max-device-width: 400px) {
-    .imagem-logo{
-		width: 200px;
-		height: 100px;
-		margin-top: 15px;
-		font-size: 2rem;
-	}
-	
-	.container {
-		width: 94%;
-		margin: 0 auto;
-	}
-	
-	.cabecalhoPrincipal {
-		background-color: #fff;
-		padding: 15px 0;
-		
-	}
-	
-	.cabecalhoPrincipal-titulo {
-		font-weight: bold;
-		font-size: 2em;
-		margin-bottom: 20px;
-	}
-	
-	.cabecalhoPrincipal-titulo a {
-		text-decoration: none;
-		color: inherit;
-	}
-	
-	.cabecalhoPrincipal-nav-link {
-		padding: 15px;
-		margin-bottom: 10px;
-		color: #242323;
-		background-color: #FFF;
-		text-decoration: none;
-		transition: .5s;
-		display: block;
-		background-color: #fff;
-		padding-right: 25px;
-		font-size: 18px;
-		border-radius: 5px;
-		border: 1px solid #9799A6;
-	
-	}
-	.cabecalhoPrincipal-nav-login{
-		background-color: cyan;
-		border-radius: 10px;
-		padding-left: 20px;
-		text-align: center;
-	}
+@media (max-width: 400px){
+  .cabecalhoPrincipal{
+    align-items: left;
+    justify-content: none;
+  }
+  .container{
+    flex-direction: column;
+  }
+  .cabecalhoPrincipal-nav{
+    flex-direction: column;
+  }
+  .cabecalhoPrincipal-nav-link{
+    text-align: left;
+  }
+  .barrinha{
+    display: none;
+  }
+  .span{
+    width: 350px;
+    border: 1px solid #B76E79;
+  }
+  .Pricipal-home{
+    width: 100%;
+  }
+  .class-servico{
+    flex-direction: column;
+    display: block;
+    width: 100%;
+
+  }
+  .conteudo-servicos{
+    flex-direction: column;
+  }
+  .servicos{
+    width: 100%;
+    flex-direction: column;
+  }
+  .servicos-2{
+    flex-direction: column;
+    padding: 0;
+  }
+  .contato-principal{
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .global-contato{
+    flex-direction: column;
+    margin: 10px;
+    padding: 0px;
+  }
+  #divisoria{
+    display: none;
+  }
+  .divisoria{
+    width: 350px;
+    border: 1px solid #B76E79;
+  }
+  .mapa{
+    width: 100%;
+    background-image: url(marmore-branco.jpg);
+  }
+  .mapa iframe{
+    margin-top: 75px;
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    margin-left: 50px;
+    margin-bottom: 75px;
+  }
+  .sobre{
+    flex-direction: column;
+  }
+  .conteudo-sobre{
+    flex-direction: column;
+  }
+  .clinica{
+    width: 300px;
+    padding-bottom: 50px;
+    margin: 0;
+    padding-left: 10%;
+  }
+  .paragrafo-sobre{
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 500px){
+  .cabecalhoPrincipal{
+    align-items: left;
+    justify-content: none;
+  }
+  .container{
+    flex-direction: column;
+  }
+  .cabecalhoPrincipal-nav{
+    flex-direction: column;
+  }
+  .cabecalhoPrincipal-nav-link{
+    text-align: left;
+  }
+  .barrinha{
+    display: none;
+  }
+  .span{
+    width: 350px;
+    border: 1px solid #B76E79;
+  }
+  .Pricipal-home{
+    width: 100%;
+  }
+  .class-servico{
+    flex-direction: column;
+    display: block;
+  }
+  .conteudo-servicos{
+    flex-direction: column;
+  }
+  .servicos{
+    width: 100%;
+    flex-direction: column;
+  }
+  .servicos-2{
+    flex-direction: column;
+  }
+  .contato-principal{
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .global-contato{
+    flex-direction: column;
+    margin: 10px;
+    padding: 0px;
+  }
+  #divisoria{
+    display: none;
+  }
+  .divisoria{
+    width: 350px;
+    border: 1px solid #B76E79;
+  }
+  .mapa{
+    width: 100%;
+    background-image: url(marmore-branco.jpg);
+  }
+  .mapa iframe{
+    margin-top: 75px;
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    margin-left: 50px;
+    margin-bottom: 75px;
+  }
+  .sobre{
+    flex-direction: column;
+  }
+  .conteudo-sobre{
+    flex-direction: column;
+  }
+  .clinica{
+    width: 300px;
+    padding-bottom: 50px;
+    margin: 0;
+    padding-left: 10%;
+  }
+  .paragrafo-sobre{
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 15%;
+  }
+
 }
