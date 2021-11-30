@@ -461,6 +461,7 @@ textarea{
     flex-direction: column;
     margin: 10px;
     padding: 0px;
+    align-items: center;
   }
   #divisoria{
     display: none;
@@ -547,6 +548,7 @@ textarea{
     flex-direction: column;
     margin: 10px;
     padding: 0px;
+    align-items: center;
   }
   #divisoria{
     display: none;
