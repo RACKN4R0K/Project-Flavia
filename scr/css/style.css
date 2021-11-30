@@ -467,6 +467,7 @@ textarea{
   }
   .divisoria{
     width: 350px;
+    margin-top: 50px;
     border: 1px solid #B76E79;
   }
   .mapa{
@@ -551,8 +552,11 @@ textarea{
     display: none;
   }
   .divisoria{
+    align-items: center;
     width: 350px;
+    margin-top: 50px;
     border: 1px solid #B76E79;
+    margin-left: 16px;
   }
   .mapa{
     width: 100%;
