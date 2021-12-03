@@ -376,7 +376,9 @@ textarea{
 }
 .paragrafo-sobre{
   margin-right: 15%;
+  padding-top: 7%;
   text-align: justify;
+  font-size: 20px;
 }
 
 .footer-conteudo{
